@@ -1,0 +1,58 @@
+1	0	19999	20000
+TotalMemoryUsed now is 20000
+LatestEndPosition now is 20000
+2	20000	99999	80000
+TotalMemoryUsed now is 100000
+LatestEndPosition now is 100000
+3	100000	189999	90000
+TotalMemoryUsed now is 190000
+LatestEndPosition now is 190000
+4	190000	389999	200000
+TotalMemoryUsed now is 390000
+LatestEndPosition now is 390000
+5	390000	789999	400000
+TotalMemoryUsed now is 790000
+LatestEndPosition now is 790000
+index is 2
+Free	3	100000	189999	90000
+TotalMemoryUsed now is 700000
+100000	189999	90000
+before while 1	0
+after while 1	0
+put in this free block
+6	100000	131399	31400
+New Free	131400	189999	58600
+TotalMemoryUsed now is 731400
+before while 1	0
+after while 1	0
+put in this free block
+7	131400	181399	50000
+New Free	181400	189999	8600
+TotalMemoryUsed now is 781400
+before while 1	0
+search for next free block
+in while 1
+after while 1	1
+free block is smaller than size, put at the end of all
+8	790000	824999	35000
+TotalMemoryUsed now is 816400
+index is 1
+Free	2	20000	99999	80000
+TotalMemoryUsed now is 736400
+20000	99999	80000
+181400	189999	8600
+before while 2	0
+search for next free block
+in while 1
+search for next free block
+in while 2
+after while 2	2
+free block is smaller than size, put at the end of all
+9	825000	1083575	258576
+TotalMemoryUsed now is 994976
+before while 2	0
+after while 2	0
+put in this free block
+10	20000	69999	50000
+New Free	70000	99999	30000
+TotalMemoryUsed now is 1044976
